@@ -15,13 +15,15 @@ export async function getAccessToken() {
     return data.access_token
   }
 
+  const refresh_token = await BUCKET.get('refresh_token')
+
   // Token expired, refresh access token with Microsoft API. Both international and china-specific API are supported
   const oneDriveAuthEndpoint = `${config.apiEndpoint.auth}/common/oauth2/v2.0/token`
 
   const resp = await fetch(oneDriveAuthEndpoint, {
     method: 'POST',
     body: `client_id=${config.client_id}&redirect_uri=${config.redirect_uri}&client_secret=${config.client_secret}
-    &refresh_token=${config.refresh_token}&grant_type=refresh_token`,
+    &refresh_token=${refresh_token}&grant_type=refresh_token`,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded'
     }

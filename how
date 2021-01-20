@@ -1,0 +1,261 @@
+[33mcommit 3e26413160a4047350ee16df77cad9e91c16683b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 9b13129 ee6875e
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Sun Jan 10 17:28:29 2021 +0800
+
+    Merge pull request #82 from spencerwooo/readme-next
+
+[33mcommit ee6875ec109876e57b28c65a42b294f959700bd8[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sun Jan 10 17:25:58 2021 +0800
+
+    docs: update zh-cn readme
+
+[33mcommit 30c6c0caffd581d18d5c311382f7f867bfc8fc2e[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sun Jan 10 00:57:32 2021 +0800
+
+    docs: update some of the zh-cn translations
+
+[33mcommit 769762c1bba22292dd55bd4abbab46b32597aa83[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sat Jan 9 23:58:15 2021 +0800
+
+    docs: fix some issues
+
+[33mcommit e8d61a2a4b430a17ae40846a5a468992e54c4252[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sat Jan 9 23:55:54 2021 +0800
+
+    docs: clean up styles
+
+[33mcommit 5428af55b01dfdac6bbbd9616f03414e1f5cfbf0[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sat Jan 9 23:40:15 2021 +0800
+
+    docs: update for more detailed readme
+
+[33mcommit ec1dbdc958a5faf601e96af56866c96f098adcdc[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sat Jan 9 22:19:42 2021 +0800
+
+    docs: update icon, screenshot
+
+[33mcommit adde690bc309fdc3115cd29808942aa7e4d6836b[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sat Jan 9 21:23:37 2021 +0800
+
+    docs: prepare for new i18n readme
+
+[33mcommit 9b1312990b99b3ac1632a86e2f34a237d9b2b3d2[m
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Fri Jan 8 16:03:09 2021 +0800
+
+    chore: update to latest commit hash for CSS reference
+
+[33mcommit 88570208bdd3dc88ab2e13bbf7de370b3b8dba38[m
+Merge: 0181d56 277d665
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Fri Jan 8 16:01:22 2021 +0800
+
+    Merge pull request #78 from beetcb/patch-4
+    
+    fix: pagination NEXT link click issue
+
+[33mcommit 277d665e20192a3bb8d56c704433f4fdba270b63[m
+Author: beet <63141491+beetcb@users.noreply.github.com>
+Date:   Thu Jan 7 19:01:25 2021 +0800
+
+    fix: replace flex with grid layout
+
+[33mcommit 5be1ebafff8acf0c520c12d47537ff5ebb141003[m
+Author: beet <63141491+beetcb@users.noreply.github.com>
+Date:   Wed Jan 6 18:26:10 2021 +0800
+
+    try: css rule to fix NEXT click issue -> failed
+
+[33mcommit 0181d564f246387f5467e876cd992582b49f9c44[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Thu Jan 7 16:43:35 2021 +0800
+
+    conf: disable preview through cache
+
+[33mcommit ac06e8b0747db505cf0ddad6def308ec91e6836b[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Thu Jan 7 16:39:06 2021 +0800
+
+    feat: enable proxied and cached download, remove turbolink for download page
+
+[33mcommit b43b8bf5eb403f5e7969041c0c02dbf086eb51b4[m
+Merge: 9d7a6d6 746d1aa
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Thu Jan 7 15:48:56 2021 +0800
+
+    Merge pull request #76 from beetcb:patch-2
+    
+    feat: add cache preview feature
+
+[33mcommit 746d1aab65b0b25db2a032ac1b5c81dfe6d42543[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Thu Jan 7 15:48:19 2021 +0800
+
+    fix: typo
+
+[33mcommit 9c06515be843b948e0fa83daef90ce3e109c9a80[m
+Author: beet <63141491+beetcb@users.noreply.github.com>
+Date:   Thu Jan 7 15:26:06 2021 +0800
+
+    fix: more clear assignment statement
+
+[33mcommit 90da59bcf628b2def0ac6c77a784a857ac894f48[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Thu Jan 7 14:11:52 2021 +0800
+
+    fix: update to latest params, fix eslint issues
+
+[33mcommit 9d7a6d6caebc31744898fb168b738206dd617123[m
+Merge: 5e829ad 74245d8
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Thu Jan 7 14:04:31 2021 +0800
+
+    Merge pull request #77 from beetcb:patch-3
+    
+    feat: centralize national endpoint config
+
+[33mcommit 74245d8d764ae8823c68dcd62a3cdc166df21efa[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Thu Jan 7 14:03:56 2021 +0800
+
+    fix: more accurate variable name, remove extra tab
+
+[33mcommit 3002b2eea692a68be36163a57b33db93fdf46a46[m
+Author: beet <63141491+beetcb@users.noreply.github.com>
+Date:   Wed Jan 6 18:18:17 2021 +0800
+
+    fix: pagination-handle event with js
+
+[33mcommit 024bb413ea3e4a08cc61308604b6176c623d0543[m
+Author: beet <63141491+beetcb@users.noreply.github.com>
+Date:   Wed Jan 6 18:00:52 2021 +0800
+
+    fix: potential wrong upload endpoint
+
+[33mcommit 0f33be65edf1d4e8d06e51660e6ce2a796b0f739[m
+Author: beet <63141491+beetcb@users.noreply.github.com>
+Date:   Wed Jan 6 18:00:28 2021 +0800
+
+    feat: centralize national endpoint config
+
+[33mcommit fee2daba0070478bf4d6d52090153739c57e0c42[m
+Author: beet <63141491+beetcb@users.noreply.github.com>
+Date:   Wed Jan 6 17:30:47 2021 +0800
+
+    feat: add cache preview feature
+
+[33mcommit 5e829ad374153cea2eae393c23632b1cd335fc70[m
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Sat Jan 2 21:20:06 2021 +0800
+
+    docs: fix sequence of generating KV and getting account_id
+
+[33mcommit 8110620e084ae89afbe8af1a5160f31d9803ad73[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sat Jan 2 15:06:27 2021 +0800
+
+    fix: add parameter 'raw' docs and update variables, closes #65
+
+[33mcommit 62075063aa7108b7e0c345a7f0cfc2ac09f56d40[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sat Jan 2 14:53:16 2021 +0800
+
+    chore: use npm instead of yarn
+
+[33mcommit 4393403c84c61b34d6152c6bce0f013e1a87901b[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sat Jan 2 14:51:55 2021 +0800
+
+    fix: url parameter 'raw' as raw image download
+
+[33mcommit 236bf0055b342963d93b2baaf4eca9bf4ae8bb4a[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Sat Jan 2 14:51:07 2021 +0800
+
+    fix: redeclaration of aplayer and dplayer, closes #57
+
+[33mcommit 97491bab6172e9a9ff4c4cd4751e43b3a9abe5aa[m
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Mon Nov 30 08:37:56 2020 +0800
+
+    fix: fix pagination, closes #60
+
+[33mcommit b6706a892e305425a833747f7b4bb181b683028a[m
+Author: spencerwooo <spencer.woo@outlook.com>
+Date:   Mon Nov 23 10:24:34 2020 +0800
+
+    docs: update README
+
+[33mcommit 05abcb832943c50ab10c8b87b7096fbcab100791[m
+Author: spencerwooo <spencer.wushangbo@gmail.com>
+Date:   Sun Nov 22 13:19:32 2020 +0800
+
+    chore: lint files and kv preview ids
+
+[33mcommit 6d6657db92223e5b8f549a9ce9f0b21d7cfe1adc[m
+Merge: 6abbaea cf518be
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Sun Nov 22 13:01:45 2020 +0800
+
+    Merge pull request #56 from simonsmh/patch-5
+    
+    feat: Use cloudflare KV instead
+
+[33mcommit cf518be2de2a8fb141ca720a07f81171c3e5de21[m
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Sun Nov 22 13:00:55 2020 +0800
+
+    chore: update KV bucket ID
+
+[33mcommit 6abbaea751ba33b26b5ba5016cd17e25ba335d9d[m
+Author: spencerwooo <spencer.wushangbo@gmail.com>
+Date:   Sun Nov 22 12:11:49 2020 +0800
+
+    chore: add comments for potential ambiguous code in pr #46
+
+[33mcommit 1c33a87c61b3890026360fe066d3ad0f82873f30[m
+Merge: 5650dda 713771d
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Sun Nov 22 12:07:32 2020 +0800
+
+    Merge pull request #46 from simonsmh/patch-3
+    
+    fix: add external js to header
+
+[33mcommit 5650dda565c43625dd47c22647a1764f98e41375[m
+Author: spencerwooo <spencer.wushangbo@gmail.com>
+Date:   Sun Nov 22 12:02:09 2020 +0800
+
+    fix: lint errors and ambiguous var names
+
+[33mcommit e676b21919482eb898762d66cebf062694e0321a[m
+Merge: 8d9f9b3 9879124
+Author: Spencer Woo <spencer.wushangbo@gmail.com>
+Date:   Sun Nov 22 12:01:04 2020 +0800
+
+    Merge pull request #52 from simonsmh/patch-4
+    
+    markdown: deal with relative path
+
+[33mcommit 8be70af161fe7f4d92ff8499b9009ee1ad2ec3ab[m
+Author: Simon Shi <simonsmh@gmail.com>
+Date:   Sat Nov 21 19:47:38 2020 +0800
+
+    feat: Use cloudflare KV instead
+
+[33mcommit 98791245a0a512d6da55bd573bc43557af7a0634[m
+Author: Simon Shi <simonsmh@gmail.com>
+Date:   Thu Nov 19 19:31:06 2020 +0800
+
+    markdown: deal with relative path
+
+[33mcommit 8d9f9b3ab27bc44997cf4877175edf3119d72230[m
+Merge: 0073c5a 58
