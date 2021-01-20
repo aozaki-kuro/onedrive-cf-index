@@ -9,6 +9,4 @@
 [![Hosted on Cloudflare Workers](https://img.shields.io/badge/Hosted%20on-CF%20Workers-f38020?logo=cloudflare&logoColor=f38020&labelColor=282d33)](https://storage.spencerwoo.com/)
 [![Deploy](https://github.com/aozaki-kuro/onedrive-cf-index/workflows/Deploy/badge.svg)](https://github.com/aozaki-kuro/onedrive-cf-index/actions?query=workflow%3ADeploy)
 
-<h5>This project is greatly inspired by: <a href="https://github.com/heymind/OneDrive-Index-Cloudflare-Worker">onedrive-index-cloudflare-worker</a>.</h5>
-
 This is a forked repo.
