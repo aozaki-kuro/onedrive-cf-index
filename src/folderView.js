@@ -52,8 +52,8 @@ export async function renderFolderView(items, path, request) {
   const intro = `<div class="intro markdown-body" style="text-align: left; margin-top: 2rem;">
                     <h2>Hoshimachi Suisei's YouTube Archive ☄</h2>
                     <p>This is an archive site for Hoshimachi Suisei's YouTube archive.</p>
-                    <p>Do not distribute this site under any circumstances.</p>
                     <p>If you find out dupilicate or paid contents uploaded, please report in the Discord server.</p>
+                    <p>Do not distribute this site under any circumstances.</p>
                     <p><b>请不要转发本站链接，谢谢合作。</b></p>
                   </div>`
 
