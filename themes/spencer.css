@@ -76,7 +76,7 @@ a {
 a.item {
   display: flex;
   align-items: center;
-  overflow:hidden;
+  /*overflow:hidden;*/
   text-overflow:ellipsis;
   white-space:nowrap;
   width: calc(100% - 5rem);
