@@ -1,6 +1,6 @@
 <div align="center">
   <image src="assets/onedrive-cf-index.png" alt="onedrive-cf-index" width="150px" />
-  <h3><a href="https://storage.spencerwoo.com">onedrive-cf-index</a></h3>
+  <h3>onedrive-cf-index</h3>
   <em>Yet another OneDrive index, powered by CloudFlare Workers.</em>
 </div>
 
