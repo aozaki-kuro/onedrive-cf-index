@@ -56,13 +56,6 @@ export async function renderFolderView(items, path, request) {
                     <p>If you find out dupilicate or paid contents uploaded, please report in the Discord server.</p>
                     <p>Do not distribute this site under any circumstances.</p>
                     <p><b>请不要转发本站链接，谢谢合作。</b></p>
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y425T5MB3"></script>
-                      <script>
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'G-4Y425T5MB3');
-                      </script>
                   </div>`
 
   // Check if current directory contains README.md, if true, then render spinner
