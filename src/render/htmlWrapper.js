@@ -47,6 +47,14 @@ export function renderHTML(body, pLink, pIdx) {
       <script src="https://cdn.jsdelivr.net/gh/pipwerks/PDFObject/pdfobject.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/dplayer@1.26.0/dist/DPlayer.min.js"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y425T5MB3"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4Y425T5MB3');
+      </script>
     </head>
     <body>
       <nav id="navbar" data-turbolinks-permanent><div class="brand">☄ Suisei's Archive</div></nav>
