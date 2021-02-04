@@ -54,7 +54,7 @@ export async function renderFolderView(items, path, request) {
                     <p><i>Notice: The storage is now under maintainace, please wait until further information.</i></p>
                     <p>This is an archive site for Hoshimachi Suisei's YouTube archive.</p>
                     <p>If you find out dupilicate or paid contents uploaded, please report in the Discord server.</p>
-                    <p>Do not distribute this site under any circumstances.</p>
+                    <p><i>Notice: Do not distribute this site under any circumstances.</i></p>
                     <p><b>请不要转发本站链接，谢谢合作。</b></p>
                   </div>`
 
