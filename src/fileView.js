@@ -40,7 +40,6 @@ function renderPDFPreview(file) {
           function progress({ loaded, total }) {
             loadingProgress.innerHTML = 'Loading PDF... ' + Math.round(loaded / total * 100) + '%'
           }
-
           fetch('${file['@microsoft.graph.downloadUrl']}').then(response => {
             if (!response.ok) {
               loadingLabel.innerHTML = '😟 ' + response.status + ' ' + response.statusText
@@ -50,7 +49,6 @@ function renderPDFPreview(file) {
               loadingLabel.innerHTML = '😟 ReadableStream not yet supported in this browser. Please download the PDF directly using the button below.'
               throw Error('ReadableStream not yet supported in this browser.')
             }
-
             const contentEncoding = response.headers.get('content-encoding')
             const contentLength = response.headers.get(contentEncoding ? 'x-file-size' : 'content-length')
             if (contentLength === null) {
@@ -58,15 +56,12 @@ function renderPDFPreview(file) {
               console.error('Response size header unavailable')
               return response
             }
-
             const total = parseInt(contentLength, 10)
             let loaded = 0
-
             return new Response(
               new ReadableStream({
                 start(controller) {
                   const reader = response.body.getReader()
-
                   read()
                   function read() {
                     reader.read().then(({ done, value }) => {
@@ -92,7 +87,6 @@ function renderPDFPreview(file) {
               const pdfFile = new Blob([blob], { type: 'application/pdf' })
               const pdfFileUrl = URL.createObjectURL(pdfFile)
               loadingLabel.classList.add('fade-out-bck')
-
               setTimeout(() => {
                 loadingLabel.remove()
                 document.querySelector('#pdf-preview-wrapper').classList.add('fade-in-fwd')
