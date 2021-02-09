@@ -32,7 +32,9 @@ export function renderHTML(body, pLink, pIdx) {
       <meta charset="utf-8" />
       <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <title>Suisei's Archive</title>
+      <title>Suisei Archive</title>
+      <meta property="og:title" content="Suisei Archive☄">
+      <meta property="og:description" content="The site for Hoshimachi Suisei's YouTube Archive.">
       <link rel="shortcut icon" type="image/png" sizes="16x16" href="${favicon}" />
       <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.min.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/gh/aozaki-kuro/onedrive-cf-index@${COMMIT_HASH}/themes/spencer.css" rel="stylesheet">
