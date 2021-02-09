@@ -58,7 +58,7 @@ export function renderHTML(body, pLink, pIdx) {
       </script>
     </head>
     <body>
-      <nav id="navbar" data-turbolinks-permanent><div class="brand">☄ Suisei's Archive</div></nav>
+      <nav id="navbar" data-turbolinks-permanent><div class="brand">☄ Suisei Archive</div></nav>
       ${body}
       <div class="paginate-container">${pagination(pIdx)}</div>
       <div id="flex-container" data-turbolinks-permanent style="flex-grow: 1;"></div>
