@@ -77,9 +77,9 @@ a.item {
   display: flex;
   align-items: center;
   /*overflow:hidden;*/
-  text-overflow:ellipsis;
-  white-space:nowrap;
-  width: calc(100% - 5rem);
+  /*text-overflow:ellipsis;*/
+  /*white-space:nowrap;*/
+  /*width: calc(100% - 5rem);*/
   text-decoration: none;
   color: #000000;
   padding: 0.8rem 1rem;
@@ -314,4 +314,15 @@ a.item:hover {
   .token.url {
     color: #89befa !important;
   }
+}
+
+div.path,
+a.item {
+  word-break: break-all;
+}
+span.size {
+  white-space: nowrap;
+}
+div.items > div {
+  min-width: 280px !important;
 }
