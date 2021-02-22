@@ -62,6 +62,7 @@ export function renderHTML(body, pLink, pIdx) {
       ${body}
       <div class="paginate-container">${pagination(pIdx)}</div>
       <div id="flex-container" data-turbolinks-permanent style="flex-grow: 1;"></div>
+      <footer id="footer" data-turbolinks-permanent>🍹</footer>
       <script>
         if (typeof ap !== "undefined" && ap.paused !== true) {
           ap.destroy()
