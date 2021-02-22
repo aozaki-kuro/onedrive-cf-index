@@ -51,7 +51,8 @@ export async function renderFolderView(items, path, request) {
 
   const intro = `<div class="intro markdown-body" style="text-align: left; margin-top: 2rem;">
                     <h2>Suisei's YouTube Archive ☄</h2>
-                    <p><i>NDo not distribute this site.</i></p>
+                    <img src="https://img.shields.io/badge/Hosted%20on-CF%20Workers-f38020?logo=cloudflare&logoColor=f38020&labelColor=282d33" alt="hosted on cloudflare workers"> <img src="https://img.shields.io/badge/Stored%20in-OneDrive-blue?logo=microsoft%20onedrive&logoColor=0090ff&labelColor=282d33" alt="Stored in OneDrive for Business">
+                    <p><i>Do not distribute this site, keep it a secret.</i></p>
                     <p><b>🚧请不要转发本站链接，谢谢合作🚧</b></p>
                   </div>`
 
