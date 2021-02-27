@@ -51,7 +51,7 @@ export async function renderFolderView(items, path, request) {
 
   const intro = `<div class="intro markdown-body" style="text-align: left; margin-top: 2rem;">
                     <h2>Suisei's YouTube Archive ☄</h2>
-                    <p><a href="https://archive.suisei.cc/%F0%9F%8E%89Official/%F0%9F%93%83Documents/ABOUT%20THIS%20SITE.md">Doucment</a></p>
+                    <p>Please read the <a href="https://archive.suisei.cc/%F0%9F%8E%89Official/%F0%9F%93%83Documents/ABOUT%20THIS%20SITE.md">document</a> first.</p>
                     <p><i>Do not distribute this site, keep it a secret.</i></p>
                     <p>このサイトは拡散しないでください。</p>
                     <p><b>🚧请不要转发本站链接，谢谢合作🚧</b></p>
