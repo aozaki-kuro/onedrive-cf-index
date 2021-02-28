@@ -90,7 +90,7 @@ const config = {
    * Example: https://storage.spencerwoo.com/🥟%20Some%20test%20files/Previews/eb37c02438f.png?raw&proxied
    * You can also embed this link (url encoded) directly inside Markdown or HTML.
    */
-  proxyDownload: true
+  proxyDownload: false
 }
 
 // IIFE to set apiEndpoint & baseResource
