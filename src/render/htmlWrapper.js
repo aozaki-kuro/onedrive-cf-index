@@ -56,6 +56,7 @@ export function renderHTML(body, pLink, pIdx) {
 
         gtag('config', 'G-4Y425T5MB3');
       </script>
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bf958dc3178348b792ecb4f0e93b07b5", "spa": true}'></script>
     </head>
     <body>
       <nav id="navbar" data-turbolinks-permanent><div class="brand">☄ Suisei Archive</div></nav>
