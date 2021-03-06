@@ -21,9 +21,9 @@ const config = {
    * You can use this tool http://heymind.github.io/tools/microsoft-graph-api-auth
    * to get following params: client_id, client_secret, refresh_token & redirect_uri.
    */
-  client_id: 'fafe9f9c-b95b-4ec0-9020-17d2cc2fa071',
+  client_id: '8f92c39e-819d-4dee-8b76-e7bb28fc1f34',
   client_secret: CLIENT_SECRET,
-  redirect_uri: 'https://heymind.github.io/tools/microsoft-graph-api-auth',
+  redirect_uri: 'http://localhost',
 
   /**
    * The base path for indexing, all files and subfolders are public by this tool. For example: `/Public`.
