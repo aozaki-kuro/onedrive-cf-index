@@ -71,7 +71,7 @@ a {
   background: white;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   border-radius: 8px;
-  font-family:"Monospace";
+  font-family: Monospace;
   font-size: 1.2em;
 }
 
@@ -82,7 +82,7 @@ a.item {
   color: #000000;
   padding: 0.8rem 1rem;
   transition: 0.2s all ease-in-out;
-  font-family:"Monospace";
+  font-family: Monospace;
   font-size: 1.2em;
 }
 
