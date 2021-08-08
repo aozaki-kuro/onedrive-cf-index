@@ -48,7 +48,6 @@ export function renderHTML(body, pLink, pIdx) {
       <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/dplayer@1.26.0/dist/DPlayer.min.js"></script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y425T5MB3"></script>
-      <script data-ad-client="ca-pub-3428719478157235" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
